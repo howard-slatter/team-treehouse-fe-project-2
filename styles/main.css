@@ -7,7 +7,7 @@
 }
 
 body {
-  color: #575757;
+  color: #626262;
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   font-weight: 400;
@@ -19,21 +19,22 @@ body {
 }
 
 h1 {
-  padding: 0.5em 0;
   text-align: center;
+  margin: 0;
+  padding: 0.75em 0;
 }
 
 h2 {
-  font-size: 0.9em;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin: 2em 0;
+  padding: 2em 0;
   text-align: center;
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 1.1em;
-  margin: 1.5em 0;
+  margin: 0;
+  padding: 1em 0;
   text-align: center;
 }
 
@@ -43,8 +44,9 @@ img {
 }
 
 p {
-  margin: 1em;
-  padding: 0.5em;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0.5em 0 2em;
 }
 
 .float-left {
@@ -72,7 +74,7 @@ header p {
 }
 
 .profile-pic {
-  background-color: #d0d0d0;
+  background-color: #e0e0e0;
   margin: 1em auto;
   padding: 1.2em 1.5em;
   width: 70%;
@@ -87,11 +89,12 @@ header p {
 
 ul {
   list-style-type: none;
+  padding: 0.1em 0;
 }
 
 ul li {
   font-weight: 700;
-  padding: 0.25em;
+  padding: 0.25em 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -101,9 +104,9 @@ ul li a:link {
   color: #575757;
   display: block;
   margin: 0 auto;
-  padding: 0.5em;
+  padding: 0.75em;
   text-decoration: none;
-  width: 98%;
+  width: 95%;
 }
 
 ul li a:visited {
@@ -117,7 +120,11 @@ ul li a:hover {
 /* Main */
 
 section {
-  margin: auto 1em;
+  margin: auto 0.5em;
+}
+
+main {
+  padding-bottom: 2em;
 }
 
 main p {
@@ -128,16 +135,40 @@ main p {
 
 footer {
   background-color: #f0f0f0;
-  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+footer h2 {
+  padding: 3em 0;
 }
 
 footer p {
+  padding: 0.5em 0 0.5em;
   text-align: center;
+}
+
+footer p a:link {
+  color: #575757;
+  text-decoration: none;
+}
+
+footer p a:visited {
+  color: #575757;
+}
+
+footer p a:hover {
+  color: #575757;
+  text-decoration: underline;
+}
+
+footer section {
+  padding-bottom: 3em;
 }
 
 footer nav {
   border-bottom: 1px solid #575757;
   border-top: 1px solid #575757;
+  padding: 1.5em 1em;
   width: 100%;
 }
 
