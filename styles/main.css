@@ -1,3 +1,13 @@
+/* Global styles */
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrap {
+  max-width: 320px;
 }
