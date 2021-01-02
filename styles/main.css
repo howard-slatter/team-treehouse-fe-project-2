@@ -1,13 +1,160 @@
-/* Global styles */
+/* Globals */
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  color: #575757;
   font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .wrap {
+  margin: 0 auto;
   max-width: 320px;
+}
+
+h1 {
+  padding: 0.5em 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 0.9em;
+  font-weight: 700;
+  margin: 2em 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.1em;
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Header */
+
+header {
+  background-color: #f0f0f0;
+}
+
+header p {
+  text-align: center;
+}
+
+.profile-pic {
+  background-color: #d0d0d0;
+  margin: 1em auto;
+  padding: 1.2em 1.5em;
+  width: 70%;
+}
+
+.profile-pic img {
+  display: block;
+  height: 50%;
+  margin: auto;
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-weight: 700;
+  padding: 0.25em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul li a:link {
+  background-color: #fff;
+  color: #575757;
+  display: block;
+  margin: 0 auto;
+  padding: 0.5em;
+  text-decoration: none;
+  width: 98%;
+}
+
+ul li a:visited {
+  color: #575757;
+}
+
+ul li a:hover {
+  background-color: #d0d0d0;
+}
+
+/* Main */
+
+section {
+  margin: auto 1em;
+}
+
+main p {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f0f0f0;
+  font-size: 0.8em;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer nav {
+  border-bottom: 1px solid #575757;
+  border-top: 1px solid #575757;
+  width: 100%;
+}
+
+footer nav p {
+  display: inline-block;
+  font-weight: 700;
+}
+
+footer nav p a:link {
+  color: #575757;
+  text-decoration: none;
+}
+footer nav p a:visited {
+  color: #575757;
+}
+footer nav p a:hover {
+  text-decoration: underline;
+}
+footer nav p a:active {
 }
