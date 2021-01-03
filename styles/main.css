@@ -87,19 +87,19 @@ header p {
   width: 50%;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   padding: 0.1em 0;
 }
 
-ul li {
+nav ul li {
   font-weight: 700;
   padding: 0.25em 0;
   text-align: center;
   text-transform: uppercase;
 }
 
-ul li a:link {
+nav ul li a:link {
   background-color: #fff;
   color: #575757;
   display: block;
@@ -109,11 +109,11 @@ ul li a:link {
   width: 95%;
 }
 
-ul li a:visited {
+nav ul li a:visited {
   color: #575757;
 }
 
-ul li a:hover {
+nav ul li a:hover {
   background-color: #d0d0d0;
 }
 
