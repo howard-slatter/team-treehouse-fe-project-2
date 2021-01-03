@@ -15,7 +15,7 @@ body {
 
 .wrap {
   margin: 0 auto;
-  max-width: 320px;
+  /* max-width: 320px; */
 }
 
 h1 {
@@ -135,7 +135,8 @@ main p {
 
 footer {
   background-color: #f0f0f0;
-  margin-bottom: 1em;
+  margin: 0 auto 1em;
+  width: 100%;
 }
 
 footer h2 {
