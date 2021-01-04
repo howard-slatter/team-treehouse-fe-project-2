@@ -81,6 +81,11 @@
 }
 
 @media screen and (min-width: 1025px) {
+  /* Global site width */
+  div.wrap {
+    margin: auto;
+    max-width: 1200px;
+  }
   /* Header */
   header {
     display: flex;
