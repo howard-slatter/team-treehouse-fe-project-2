@@ -58,6 +58,7 @@
   }
 
   article section {
+    min-height: 25em;
     width: 47.25%;
   }
 
