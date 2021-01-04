@@ -180,6 +180,7 @@ footer section {
 
 footer nav {
   border-top: 1px solid #575757;
+  font-size: 1rem;
   padding: 1.5em 1em;
   width: 100%;
 }

@@ -85,8 +85,16 @@
     padding-top: 0;
   }
 
-  .tablet-nav {
+  .back-to-top {
     display: none;
+  }
+
+  .tablet-nav {
+    display: block;
+    float: right;
+  }
+  .tablet-nav li {
+    display: inline-block;
   }
 }
 
@@ -129,9 +137,5 @@
   }
   .tablet-nav {
     display: block;
-  }
-
-  .tablet-nav li {
-    display: inline-block;
   }
 }
