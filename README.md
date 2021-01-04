@@ -4,6 +4,6 @@
 
 Tested in the following desktop browsers:
 
-- Chrome
-- Firefox
-- Edge
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
