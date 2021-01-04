@@ -63,6 +63,14 @@
     min-height: 25em;
   }
 
+  aside ul {
+    text-align: center;
+  }
+
+  aside ul li {
+    display: inline-block;
+  }
+
   /* Footer */
 
   footer section p {
