@@ -7,6 +7,9 @@
 }
 
 body {
+  background-color: #f0f0f0;
+  /* https://www.transparenttextures.com/ */
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
   color: #626262;
   font-family: "Roboto", sans-serif;
   font-size: 1.6em;
@@ -66,8 +69,11 @@ p {
 
 /* Header */
 
-header {
-  background-color: #f0f0f0;
+header,
+footer {
+  background-color: #d1d1d1;
+  /* https://www.transparenttextures.com/ */
+  background-image: url("https://www.transparenttextures.com/patterns/connected.png");
 }
 
 header p {
@@ -146,7 +152,6 @@ aside ul li {
 /* Footer */
 
 footer {
-  background-color: #f0f0f0;
   margin: 0 auto 1em;
   width: 100%;
 }
