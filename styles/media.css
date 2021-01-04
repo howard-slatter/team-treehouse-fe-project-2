@@ -1,6 +1,6 @@
 /* Media queries */
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   /* Header */
 
   body {
@@ -90,7 +90,7 @@
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   /* Global site width */
   div.wrap {
     margin: auto;
