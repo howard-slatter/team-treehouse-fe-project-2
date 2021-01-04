@@ -64,6 +64,13 @@
     width: 60%;
   }
 
+  footer nav p,
+  footer nav ul,
+  footer nav ul li,
+  footer nav ul li a:link {
+    padding-top: 0;
+  }
+
   .mobile-nav {
     display: none;
   }
