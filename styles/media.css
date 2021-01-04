@@ -80,8 +80,23 @@
   }
 }
 
-/* @media screen and (min-width: 1025px) {
-  p {
-    color: rgb(255, 0, 221);
+@media screen and (min-width: 1025px) {
+  /* Header */
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
-} */
+
+  header h1,
+  header nav {
+    margin: 0 1em;
+  }
+  /* Profile */
+
+  /* Main */
+  article section {
+    width: 31.94%;
+  }
+  /* Footer */
+}
