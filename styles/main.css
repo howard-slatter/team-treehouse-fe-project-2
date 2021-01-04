@@ -167,7 +167,6 @@ footer section {
 }
 
 footer nav {
-  border-bottom: 1px solid #575757;
   border-top: 1px solid #575757;
   padding: 1.5em 1em;
   width: 100%;
@@ -187,4 +186,8 @@ footer nav p a:visited {
 }
 footer nav p a:hover {
   text-decoration: underline;
+}
+
+.tablet-nav {
+  display: none;
 }
